@@ -1,6 +1,7 @@
 package wallet.domain;
 
 import wallet.domain.CouponPurchased;
+import wallet.domain.CouponCancelled;
 import wallet.CouponApplication;
 import javax.persistence.*;
 import java.util.List;
@@ -47,6 +48,11 @@ public class Coupon  {
 
         CouponPurchased couponPurchased = new CouponPurchased(this);
         couponPurchased.publishAfterCommit();
+
+
+
+        CouponCancelled couponCancelled = new CouponCancelled(this);
+        couponCancelled.publishAfterCommit();
 
     }
 
