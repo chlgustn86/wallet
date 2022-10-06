@@ -12,6 +12,7 @@ public class CouponPurchased extends AbstractEvent {
     private Long price;
     private String type;
     private String name;
+    private String buyer;
 }
 
 
