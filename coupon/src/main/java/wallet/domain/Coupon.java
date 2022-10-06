@@ -33,7 +33,7 @@ public class Coupon  {
     
     
     
-    private String type;
+    private String buyer;
     
     
     

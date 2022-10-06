@@ -68,7 +68,7 @@
                 [
                     { text: "id", value: "id" },
                     { text: "price", value: "price" },
-                    { text: "type", value: "type" },
+                    { text: "buyer", value: "buyer" },
                     { text: "name", value: "name" },
                 ],
             coupon : [],
@@ -88,7 +88,7 @@
 
             this.newValue = {
                 'price': 0,
-                'type': '',
+                'buyer': '',
                 'name': '',
             }
         },

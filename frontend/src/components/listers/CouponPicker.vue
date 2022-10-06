@@ -18,7 +18,7 @@
                                 Price :  {{item.price }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
-                                Type :  {{item.type }}
+                                Buyer :  {{item.buyer }}
                             </v-list-item-subtitle>
                             <v-list-item-subtitle>
                                 Name :  {{item.name }}

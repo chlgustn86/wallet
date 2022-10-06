@@ -18,7 +18,7 @@
 
         <v-card-text>
             <Number label="Price" v-model="value.price" :editMode="editMode"/>
-            <String label="Type" v-model="value.type" :editMode="editMode"/>
+            <String label="Buyer" v-model="value.buyer" :editMode="editMode"/>
             <String label="Name" v-model="value.name" :editMode="editMode"/>
         </v-card-text>
 

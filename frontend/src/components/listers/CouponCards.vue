@@ -69,7 +69,7 @@
             
             me.newValue = {
                 'price': 0,
-                'type': '',
+                'buyer': '',
                 'name': '',
             }
         },
